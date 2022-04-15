@@ -18,7 +18,6 @@ from bot import (
 
 
 START_TEXT = f"""
-<b>Whassup Buddy !
 """
 
 class Bot(Client):
