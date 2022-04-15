@@ -17,11 +17,6 @@ from bot.hf.flifi import uszkhvis_chats_ahndler
 
 # wants to add your own text read this https://core.telegram.org/bots/api#html-style 
 START_TEXT = f"""
-──「 <a href="{START_IMG}">{NAME}</a> 」──
-<b>Hey Master! ,</b>
-<b>I Am Working Properly With Awesome Speed</b>
-<b>➖➖➖➖➖➖➖➖➖➖➖➖➖</b>
-<code>My Repo Is Public</code> <a href="https://github.com/AASFCYBERKING/NoPmBot">Here</a>
 """
 
 @Bot.on_message(
