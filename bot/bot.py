@@ -19,13 +19,6 @@ from bot import (
 
 START_TEXT = f"""
 <b>Whassup Buddy !
-Thx For Using Me </b><a href="{PM_IMG}">🙏</a>
-
-<b>You Can Contact My</b> <a href="tg://user?id={OWNER_ID}">Owner</a> <b>By Me</b>
-
-<a href="https://github.com/AASFCYBERKING/NoPmBot">My Repo Was Public Click Here 🌹</a>
-
-<b>The Legend Who Created Me Is </b>@Aasfcyberking 🖤
 """
 
 class Bot(Client):
@@ -62,7 +55,7 @@ class Bot(Client):
                 self.commandi[START_COMMAND] = check_m.text.html
         self.LOGGER(__name__).info(
             f"@{usr_bot_me.username} based on Pyrogram v{__version__} "
-            "© 2022 - 2023 @Aasfcyberking."
+            "© 2022 - 2023 @skytrixsz."
         )
 
     async def stop(self, *args):
